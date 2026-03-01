@@ -22,8 +22,8 @@ const App = () => {
       summary: '디지털 시대의 셀러브리티는 단순한 명성을 넘어 문화적 자산으로 진화하고 있습니다. 미디어의 변화가 가져온 새로운 기회와 위기를 분석합니다.',
       author: '매거진 기자', authorEmail: 'reporter@celebritymag.co.kr', date: '2026-03-01 17:53',
       image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&q=80&w=1200',
-      mediaType: 'image', content: '사업가, 청년정치인이라는 비교적 안정적이고 사회적 영향력이 큰 경로를 걸어온 한 인물이 전혀 다른 길을 택했다. 전문가는 최근 청년 세대 사이에서 심리 상담, 명상, 영성 콘텐츠에 대한 관심이 높아지는 흐름과 무관하지 않다고 분석한다.\n\n우리는 명성을 넘어 우리 문화에 남기는 발자국과 유산에 주목합니다.\n\n디지털 대전환기 속에서 콘텐츠의 가치는 단순히 소비되는 것이 아니라 경험되는 것으로 변하고 있습니다. 우리는 이 변화의 선두에서 새로운 가치를 창출합니다.',
-      size: 'large', lang: 'KR', isFeatured: true, style: { fontSize: '18px', fontWeight: '400', fontFamily: 'sans-serif' }
+      mediaType: 'image', content: '사업가, 청년정치인이라는 비교적 안정적이고 사회적 영향력이 큰 경로를 걸어온 한 인물이 전혀 다른 길을 택했다. 전문가는 최근 청년 세대 사이에서 심리 상담, 명상, 영성 콘텐츠에 대한 관심이 높아지는 흐름과 무관하지 않다고 분석한다.\n\n우리는 명성을 넘어 우리 문화에 남기는 발자국과 유산에 주목합니다.\n\n디지털 대전환기 속에서 콘텐츠의 가치는 단순히 소비되는 것이 아니라 경험되는 것으로 변하고 있습니다. 우리는 이 변화의 선두에서 새로운 가치를 창출합니다.\n\n매거진이 추구하는 방향은 단순히 화려한 겉모습이 아니라 그 이면에 숨겨진 철학입니다.',
+      size: 'large', lang: 'KR', isFeatured: true, style: { fontSize: '20px', fontWeight: '400', fontFamily: 'sans-serif' }
     },
     {
       id: 2, category: 'FASHION', title: 'MINIMALISM IS THE NEW LOUD: SILENT LUXURY',
@@ -31,8 +31,8 @@ const App = () => {
       summary: '2026년 파리 패션위크에서 보여준 미니멀리즘의 정수. 덜어냄의 미학이 어떻게 럭셔리 시장을 재편하고 있는지 확인해 보세요.',
       author: 'ELENA PARK', authorEmail: 'elena@celebritymag.co.kr', date: '2026-03-01 12:30',
       image: 'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&q=80&w=1200',
-      mediaType: 'image', content: 'The 2026 fashion week in Paris showcased a dramatic shift towards essentialism. Designers are stripping back the noise and focusing on the purity of form and material.\n\n화려한 로고와 과장된 실루엣의 시대가 저물고, 소재 본연의 아름다움과 정교한 테일러링이 돋보이는 콰이어트 럭셔리(Quiet Luxury)가 런웨이를 장악했습니다.\n\n이것은 단순히 유행이 아니라, 더 깊은 본질을 찾으려는 현대인의 욕구가 투영된 문화적 현상입니다.',
-      size: 'medium', lang: 'EN', isFeatured: false, style: { fontSize: '18px', fontWeight: '400', fontFamily: 'serif' }
+      mediaType: 'image', content: 'The 2026 fashion week in Paris showcased a dramatic shift towards essentialism. Designers are stripping back the noise and focusing on the purity of form and material.\n\n화려한 로고와 과장된 실루엣의 시대가 저물고, 소재 본연의 아름다움과 정교한 테일러링이 돋보이는 콰이어트 럭셔리(Quiet Luxury)가 런웨이를 장악했습니다.\n\n이것은 단순히 유행이 아니라, 더 깊은 본질을 찾으려는 현대인의 욕구가 투영된 문화적 현상입니다. 우리는 이 변화를 기록합니다.',
+      size: 'medium', lang: 'EN', isFeatured: false, style: { fontSize: '20px', fontWeight: '400', fontFamily: 'serif' }
     },
     {
       id: 3, category: 'INTERVIEW', title: '아티스트 JUNO: 보이지 않는 소리를 그리다',
@@ -40,8 +40,8 @@ const App = () => {
       summary: '천재적인 감각으로 글로벌 차트를 석권한 아티스트 JUNO. 서울의 개인 스튜디오에서 나눈 그의 심도 깊은 음악 이야기.',
       author: 'DAVID KIM', authorEmail: 'david@celebritymag.co.kr', date: '2026-02-28 09:15',
       image: 'https://images.unsplash.com/photo-1493225255756-d9584f8606e9?auto=format&fit=crop&q=80&w=1200',
-      mediaType: 'image', content: 'JUNO는 서울에 위치한 자신의 스튜디오에서 재즈, 소울, 그리고 디지털 합성의 접점에 대해 이야기합니다. "가보지 못한 곳에 대한 기억처럼 느껴지는 음악을 만들고 싶었습니다."\n\n그의 최근 앨범은 전 세계 비평가들로부터 극찬을 받으며 새로운 장르의 개척자로 평가받고 있습니다. 보이지 않는 감정을 선율로 치환하는 그의 작업 방식을 독점 공개합니다.',
-      size: 'small', lang: 'KR', isFeatured: false, style: { fontSize: '18px', fontWeight: '400', fontFamily: 'sans-serif' }
+      mediaType: 'image', content: 'JUNO는 서울에 위치한 자신의 스튜디오에서 재즈, 소울, 그리고 디지털 합성의 접점에 대해 이야기합니다. "가보지 못한 곳에 대한 기억처럼 느껴지는 음악을 만들고 싶었습니다."\n\n그의 최근 앨범은 전 세계 비평가들로부터 극찬을 받으며 새로운 장르의 개척자로 평가받고 있습니다. 보이지 않는 감정을 선율로 치환하는 그의 작업 방식을 독점 공개합니다.\n\n그의 음악은 시공간을 초월하는 힘을 가지고 있습니다.',
+      size: 'small', lang: 'KR', isFeatured: false, style: { fontSize: '20px', fontWeight: '400', fontFamily: 'sans-serif' }
     },
     {
       id: 4, category: 'LIFE', title: 'URBAN RETREAT: SEOUL HIDDEN GEMS',
@@ -49,8 +49,8 @@ const App = () => {
       summary: '콘크리트 정글 서울, 그 이면에 숨겨진 고요한 힐링 스팟 5곳을 에디터가 직접 방문하고 큐레이션 했습니다.',
       author: '매거진 기자', authorEmail: 'reporter@celebritymag.co.kr', date: '2026-02-26 14:20',
       image: 'https://images.unsplash.com/photo-1531971589569-0d93a595c891?auto=format&fit=crop&q=80&w=1200',
-      mediaType: 'image', content: '도시의 소음에서 한 발자국만 벗어나면, 우리가 미처 몰랐던 평온한 공간들이 나타납니다. 이번 호에서는 바쁜 일상 속 현대인들에게 쉼표가 되어줄 서울의 숨겨진 명소들을 소개합니다.\n\n한옥의 정취를 살린 모던 티 하우스부터 숲속에 자리 잡은 프라이빗 갤러리까지, 주말에 떠나기 좋은 도심 속 휴양지들을 확인해 보세요. 나만의 시간을 가질 수 있는 소중한 공간들입니다.',
-      size: 'medium', lang: 'KR', isFeatured: false, style: { fontSize: '18px', fontWeight: '400', fontFamily: 'serif' }
+      mediaType: 'image', content: '도시의 소음에서 한 발자국만 벗어나면, 우리가 미처 몰랐던 평온한 공간들이 나타납니다. 이번 호에서는 바쁜 일상 속 현대인들에게 쉼표가 되어줄 서울의 숨겨진 명소들을 소개합니다.\n\n한옥의 정취를 살린 모던 티 하우스부터 숲속에 자리 잡은 프라이빗 갤러리까지, 주말에 떠나기 좋은 도심 속 휴양지들을 확인해 보세요. 나만의 시간을 가질 수 있는 소중한 공간들입니다.\n\n일상의 작은 변화가 삶의 질을 바꿉니다.',
+      size: 'medium', lang: 'KR', isFeatured: false, style: { fontSize: '20px', fontWeight: '400', fontFamily: 'serif' }
     },
     {
       id: 5, category: 'FASHION', title: 'VINTAGE REVIVAL: THE 90S ARE BACK',
@@ -59,7 +59,7 @@ const App = () => {
       author: 'SARAH LEE', authorEmail: 'sarah@celebritymag.co.kr', date: '2026-02-24 11:00',
       image: 'https://images.unsplash.com/photo-1550614000-4b95d4ed6df9?auto=format&fit=crop&q=80&w=1200',
       mediaType: 'image', content: '낡은 가죽 자켓, 오버사이즈 데님, 그리고 스키니 선글라스. 90년대를 지배했던 아이템들이 다시 길거리로 쏟아져 나오고 있습니다.\n\n단순한 유행의 반복이 아닌, 현대적인 감각으로 재해석된 빈티지 룩은 세대를 불문하고 강력한 매력을 발산합니다. 지속 가능성(Sustainability)에 대한 관심이 높아진 것도 이러한 트렌드의 큰 원동력입니다.',
-      size: 'medium', lang: 'EN', isFeatured: false, style: { fontSize: '18px', fontWeight: '400', fontFamily: 'sans-serif' }
+      size: 'medium', lang: 'EN', isFeatured: false, style: { fontSize: '20px', fontWeight: '400', fontFamily: 'sans-serif' }
     },
     {
       id: 6, category: 'INTERVIEW', title: 'ACTOR\'S JOURNEY: 무대에서 스크린으로',
@@ -67,8 +67,8 @@ const App = () => {
       summary: '최근 글로벌 프로젝트 주인공으로 캐스팅되며 화제를 모은 배우 김지연. 그녀가 말하는 연기에 대한 철학과 미래.',
       author: '매거진 기자', authorEmail: 'reporter@celebritymag.co.kr', date: '2026-02-22 16:45',
       image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=1200',
-      mediaType: 'image', content: '"처음 카메라 앞에 섰을 때의 떨림을 아직도 기억합니다. 작은 역할부터 시작해 지금의 자리에 오기까지 단 한 번도 연기가 지루했던 적은 없었어요."\n\n수많은 오디션 낙방을 거쳐 마침내 대체 불가능한 배우로 성장한 그녀의 치열하고도 아름다운 여정을 들여다봅니다. 그녀가 말하는 진정성 있는 연기란 무엇일까요?',
-      size: 'small', lang: 'KR', isFeatured: false, style: { fontSize: '18px', fontWeight: '400', fontFamily: 'serif' }
+      mediaType: 'image', content: '"처음 카메라 앞에 섰을 때의 떨림을 아직도 기억합니다. 작은 역할부터 시작해 지금의 자리에 오기까지 단 한 번도 연기가 지루했던 적은 없었어요."\n\n수많은 오디션 낙방을 거쳐 마침내 대체 불가능한 배우로 성장한 그녀의 치열하고도 아름다운 여정을 들여다봅니다. 그녀가 말하는 진정성 있는 연기란 무엇일까요?\n\n배우라는 직업에 대한 그녀의 깊은 고찰을 담았습니다.',
+      size: 'small', lang: 'KR', isFeatured: false, style: { fontSize: '20px', fontWeight: '400', fontFamily: 'serif' }
     },
     {
       id: 7, category: 'LIFE', title: 'ECO-LUXURY: THE SUSTAINABLE MANSIONS',
@@ -76,8 +76,8 @@ const App = () => {
       summary: '사치스러움의 기준이 변하고 있습니다. 최고급 라이프스타일을 누릴 수 있는 에코 맨션들을 취재했습니다.',
       author: 'ALEX CHUNG', authorEmail: 'alex@celebritymag.co.kr', date: '2026-02-20 10:30',
       image: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=1200',
-      mediaType: 'image', content: '태양광 패널, 빗물 재활용 시스템, 친환경 자재로 지어진 거대한 맨션들. 디자인적인 아름다움은 물론이고 자연과의 상생을 최우선으로 고려한 건축물들이 늘어나고 있습니다.\n\n우리는 환경을 해치지 않으면서도 미학적 완성도를 극한으로 끌어올린 차세대 주거 문화를 엿볼 수 있었습니다. 이것이 우리가 꿈꾸는 럭셔리의 미래입니다.',
-      size: 'medium', lang: 'EN', isFeatured: false, style: { fontSize: '18px', fontWeight: '400', fontFamily: 'sans-serif' }
+      mediaType: 'image', content: '태양광 패널, 빗물 재활용 시스템, 친환경 자재로 지어진 거대한 맨션들. 디자인적인 아름다움은 물론이고 자연과의 상생을 최우선으로 고려한 건축물들이 늘어나고 있습니다.\n\n우리는 환경을 해치지 않으면서도 미학적 완성도를 극한으로 끌어올린 차세대 주거 문화를 엿볼 수 있었습니다. 이것이 우리가 꿈꾸는 럭셔리의 미래입니다.\n\n지구와 함께 공존하는 삶, 그 아름다움에 대하여.',
+      size: 'medium', lang: 'EN', isFeatured: false, style: { fontSize: '20px', fontWeight: '400', fontFamily: 'sans-serif' }
     },
     {
       id: 8, category: 'ARCHIVE', title: 'IN FOCUS: ICONIC MOMENTS OF 2025',
@@ -85,8 +85,8 @@ const App = () => {
       summary: '우리를 울고 웃게 했던 2025년의 문화계 핫이슈. 역사에 남을 명장면들을 매거진 아카이브에서 다시 꺼내봅니다.',
       author: '매거진 기자', authorEmail: 'reporter@celebritymag.co.kr', date: '2026-02-15 19:00',
       image: 'https://images.unsplash.com/photo-1485230405346-71acb9518d9c?auto=format&fit=crop&q=80&w=1200',
-      mediaType: 'image', content: '매년 수많은 별들이 뜨고 지지만, 유독 강렬한 빛을 낸 순간들이 있습니다. 글로벌 시상식을 휩쓸었던 아티스트의 눈물, 파격적인 패션으로 레드카펫을 지배한 셀럽의 당당한 미소까지.\n\n사진 한 장이 담고 있는 수만 가지의 감정과 이야기들을 셀러브리티 매거진의 시선으로 다시 회고하며, 그 문화적 의미를 되짚어봅니다.',
-      size: 'small', lang: 'KR', isFeatured: false, style: { fontSize: '18px', fontWeight: '400', fontFamily: 'serif' }
+      mediaType: 'image', content: '매년 수많은 별들이 뜨고 지지만, 유독 강렬한 빛을 낸 순간들이 있습니다. 글로벌 시상식을 휩쓸었던 아티스트의 눈물, 파격적인 패션으로 레드카펫을 지배한 셀럽의 당당한 미소까지.\n\n사진 한 장이 담고 있는 수만 가지의 감정과 이야기들을 셀러브리티 매거진의 시선으로 다시 회고하며, 그 문화적 의미를 되짚어봅니다.\n\n기억은 시간이 흘러 역사가 됩니다.',
+      size: 'small', lang: 'KR', isFeatured: false, style: { fontSize: '20px', fontWeight: '400', fontFamily: 'serif' }
     },
     {
       id: 9, category: 'NEWS', title: 'THE NEW PARADIGM OF ENTERTAINMENT AGENCIES',
@@ -95,7 +95,7 @@ const App = () => {
       author: 'JAMES YOON', authorEmail: 'james@celebritymag.co.kr', date: '2026-02-12 08:45',
       image: 'https://images.unsplash.com/photo-1542204165-65bf26472b9b?auto=format&fit=crop&q=80&w=1200',
       mediaType: 'image', content: '과거 대형 기획사에 종속되어 있던 아티스트들이 이제는 직접 자신의 브랜드를 구축하고 독립적인 시스템을 마련하고 있습니다.\n\n전문가들은 이러한 현상이 아티스트의 자율성을 보장하는 동시에 콘텐츠의 다양성을 폭발적으로 증가시킬 것이라 전망합니다. 플랫폼과 크리에이터의 새로운 공생 관계를 다각도로 조명합니다.',
-      size: 'medium', lang: 'EN', isFeatured: false, style: { fontSize: '18px', fontWeight: '400', fontFamily: 'sans-serif' }
+      size: 'medium', lang: 'EN', isFeatured: false, style: { fontSize: '20px', fontWeight: '400', fontFamily: 'sans-serif' }
     },
     {
       id: 10, category: 'FASHION', title: 'BOLD COLORS FOR SPRING 2026',
@@ -104,12 +104,12 @@ const App = () => {
       author: '매거진 기자', authorEmail: 'reporter@celebritymag.co.kr', date: '2026-02-10 13:20',
       image: 'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&q=80&w=1200',
       mediaType: 'image', content: '기나긴 미니멀리즘의 유행 속에서도 화려한 색채에 대한 인간의 갈망은 사라지지 않았습니다. 디자이너들은 이번 봄 컬렉션에서 눈이 시릴 정도로 쨍하고 다채로운 컬러들을 캔버스 위에 쏟아냈습니다.\n\n과감한 컬러 블로킹과 패턴의 믹스매치를 통해 자신만의 독창적인 아이덴티티를 표현하는 스타일링 팁을 전해드립니다. 색채의 마법을 느껴보세요.',
-      size: 'small', lang: 'KR', isFeatured: false, style: { fontSize: '18px', fontWeight: '400', fontFamily: 'serif' }
+      size: 'small', lang: 'KR', isFeatured: false, style: { fontSize: '20px', fontWeight: '400', fontFamily: 'serif' }
     }
   ];
 
   // ==========================================
-  // [2] 시스템 코어 상태 관리
+  // [2] 시스템 코어 상태 관리 (라우팅 및 전역 상태)
   // ==========================================
   const [view, setView] = useState('MAGAZINE'); // MAGAZINE | ADMIN | STUDIO
   const [adminTab, setAdminTab] = useState('DASHBOARD'); 
@@ -124,7 +124,7 @@ const App = () => {
   const [subscribeEmail, setSubscribeEmail] = useState('');
   const sliderRef = useRef(null);
 
-  // --- 마우스 드래그 스크롤 로직 (Hot List 전용) ---
+  // --- 마우스 드래그 스크롤 로직 (Hot List) ---
   const [isDragging, setIsDragging] = useState(false);
   const [startX, setStartX] = useState(0);
   const [scrollLeft, setScrollLeft] = useState(0);
@@ -143,7 +143,7 @@ const App = () => {
     e.preventDefault();
     setIsDragMove(true); 
     const x = e.pageX - sliderRef.current.offsetLeft;
-    const walk = (x - startX) * 2; 
+    const walk = (x - startX) * 2; // 감도 조절
     sliderRef.current.scrollLeft = scrollLeft - walk;
   };
 
@@ -170,17 +170,15 @@ const App = () => {
   useEffect(() => { localStorage.setItem('mag_v35_subs', JSON.stringify(subscribers)); }, [subscribers]);
   useEffect(() => { localStorage.setItem('mag_v35_admins', JSON.stringify(adminAccounts)); }, [adminAccounts]);
 
-  // UI 피드백 알림 상태
   const [toasts, setToasts] = useState([]);
   const [loginInput, setLoginInput] = useState({ id: '', pw: '' });
   const [newAccInput, setNewAccInput] = useState({ id: '', pw: '', name: '', role: 'reporter', email: '' });
   const [editingId, setEditingId] = useState(null);
   const [isSendingNewsletter, setIsSendingNewsletter] = useState(false);
   
-  // 기사 작성 폼 초기화
   const resetForm = { 
     category: 'NEWS', lang: 'KR', title: '', subtitle: '', summary: '', author: '', image: '', videoUrl: '', mediaType: 'image', content: '', isFeatured: false, sendNewsletter: false,
-    style: { fontSize: '18px', fontWeight: '400', fontFamily: 'sans-serif' }
+    style: { fontSize: '20px', fontWeight: '400', fontFamily: 'sans-serif' }
   };
   const [cmsForm, setCmsForm] = useState(resetForm);
 
@@ -197,7 +195,7 @@ const App = () => {
   };
 
   // ==========================================
-  // [4] 글로벌 이벤트 핸들러 및 라우팅 감지
+  // [4] 라우팅 및 전역 이벤트 (관리자 접속 & 짤림 방지)
   // ==========================================
   useEffect(() => {
     const handleScroll = () => {
@@ -206,10 +204,13 @@ const App = () => {
       const windowHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
       if (windowHeight > 0) setScrollProgress((totalScroll / windowHeight) * 100);
     };
+    
     const checkRoute = () => {
-      if (window.location.hash === '#admin') setView('ADMIN');
-      else if (!selectedArticle) setView('MAGAZINE');
+      const hash = window.location.hash;
+      if (hash === '#admin') setView('ADMIN');
+      else if (hash === '' && !selectedArticle) setView('MAGAZINE');
     };
+
     window.addEventListener('scroll', handleScroll);
     window.addEventListener('hashchange', checkRoute);
     checkRoute();
@@ -222,7 +223,10 @@ const App = () => {
   useEffect(() => {
     const handlePopState = () => {
       if (selectedArticle) setSelectedArticle(null);
-      else if (view !== 'MAGAZINE') { setView('MAGAZINE'); window.location.hash = ''; }
+      else if (view !== 'MAGAZINE' && window.location.hash !== '#admin') { 
+        setView('MAGAZINE'); 
+        window.location.hash = ''; 
+      }
     };
     window.addEventListener('popstate', handlePopState);
     return () => window.removeEventListener('popstate', handlePopState);
@@ -233,6 +237,7 @@ const App = () => {
     setSelectedArticle(article);
     window.scrollTo({ top: 0, behavior: 'instant' });
   };
+  
   const goHome = () => {
     window.location.hash = '';
     setView('MAGAZINE');
@@ -241,7 +246,6 @@ const App = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  // 공유 기능 (SNS 연동)
   const handleShare = (platform, article) => {
     const url = window.location.href;
     const title = article.title;
@@ -250,7 +254,7 @@ const App = () => {
       case 'twitter': window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(title)}&url=${encodeURIComponent(url)}`, '_blank'); break;
       case 'link': 
         const el = document.createElement('textarea'); el.value = url; document.body.appendChild(el); el.select(); document.execCommand('copy'); document.body.removeChild(el);
-        addToast('🔗 링크가 클립보드에 복사되었습니다.'); break;
+        addToast('🔗 링크가 복사되었습니다.'); break;
       case 'native': if (navigator.share) navigator.share({ title, url }).catch(() => {}); break;
     }
   };
@@ -260,10 +264,10 @@ const App = () => {
     const user = adminAccounts.find(acc => acc.id === loginInput.id && acc.pw === loginInput.pw);
     if (user) {
       setIsAuthenticated(true); setLoggedInUser(user);
-      addToast(`🗝️ ${user.name}님 환영합니다.`);
+      addToast(`🗝️ ${user.name}님 접속 승인되었습니다.`);
       if (user.role === 'reporter') setView('STUDIO');
       else setAdminTab('DASHBOARD');
-    } else addToast('❌ 로그인 정보가 일치하지 않습니다.');
+    } else addToast('❌ 아이디 또는 비밀번호가 틀립니다.');
   };
 
   const handleSubscribe = (e) => {
@@ -275,11 +279,9 @@ const App = () => {
     }
   };
 
-  // 기사 발행 로직 (이메일 발송 포함)
   const handleCMSPublish = async () => {
     if (!cmsForm.title || !cmsForm.content) { addToast('⚠️ 제목과 본문을 입력해주세요.'); return; }
     
-    // 뉴스레터 발송 처리 (EmailJS)
     if (cmsForm.sendNewsletter && subscribers.length > 0) {
       setIsSendingNewsletter(true);
       try {
@@ -291,8 +293,8 @@ const App = () => {
           })
         }));
         await Promise.all(emailPromises);
-        addToast(`📧 구독자 ${subscribers.length}명에게 뉴스레터가 발송되었습니다.`);
-      } catch (error) { addToast('⚠️ 이메일 발송에 실패했습니다.'); }
+        addToast(`📧 구독자 ${subscribers.length}명에게 소식을 전송했습니다.`);
+      } catch (error) { addToast('⚠️ 이메일 전송 실패.'); }
       setIsSendingNewsletter(false);
     }
 
@@ -304,10 +306,10 @@ const App = () => {
     
     if (editingId) {
       updatedList = updatedList.map(a => a.id === editingId ? { ...a, ...cmsForm, isFeatured: finalFeatured } : a);
-      setArticlesList(updatedList); addToast('✅ 기사가 수정되었습니다.');
+      setArticlesList(updatedList); addToast('✅ 수정 완료.');
     } else {
       const newArt = { ...cmsForm, id: Date.now(), image: cmsForm.image || LOGO_PLACE_HOLDER, author: loggedInUser?.name || '매거진 기자', authorEmail: loggedInUser?.email || 'reporter@celebritymag.co.kr', date: formattedDate, isFeatured: finalFeatured, size: finalFeatured ? 'large' : 'small' };
-      setArticlesList([newArt, ...updatedList]); addToast('🚀 발행 완료!');
+      setArticlesList([newArt, ...updatedList]); addToast('🚀 기사 발행 성공!');
     }
     setEditingId(null); setCmsForm(resetForm); 
     if (loggedInUser?.role === 'admin') { setView('ADMIN'); setAdminTab('ARTICLES'); } else goHome();
@@ -317,85 +319,62 @@ const App = () => {
   const gridArticles = articlesList.filter(a => a.id !== (featuredArticle?.id || 0));
 
   // ==========================================
-  // [VIEW] STUDIO: 기사 편집 및 작성 시스템
+  // VIEW: [STUDIO] (기사 편집 시스템)
   // ==========================================
   if (view === 'STUDIO') {
     return (
-      <div className="min-h-screen bg-[#F8F9FA] text-black font-sans flex flex-col overflow-x-hidden w-full">
-        <header className="px-10 py-6 border-b bg-white flex justify-between items-center sticky top-0 z-50 shadow-sm">
-          <div className="flex items-center gap-10">
-            <button onClick={goHome} className="text-2xl font-black italic tracking-tighter flex items-center gap-2 transition-transform hover:scale-105 active:scale-95">
+      <div className="min-h-screen bg-[#F8F9FA] text-black font-sans flex flex-col w-full overflow-x-hidden">
+        <header className="px-6 md:px-10 py-6 border-b bg-white flex justify-between items-center sticky top-0 z-50 shadow-sm">
+          <div className="flex items-center gap-4 md:gap-10">
+            <button onClick={goHome} className="text-xl md:text-2xl font-black italic tracking-tighter flex items-center gap-2 hover:scale-105 transition-transform">
               CELEBRITY <span className="text-yellow-400">MAG.</span><ExternalLink size={16} className="text-gray-400" />
             </button>
-            <div className="h-8 w-[1px] bg-gray-200" />
-            <div className="flex items-center gap-3">
+            <div className="h-8 w-[1px] bg-gray-200 hidden md:block" />
+            <div className="hidden md:flex items-center gap-3">
               <div className="w-10 h-10 rounded-2xl bg-black text-yellow-400 flex items-center justify-center text-sm font-black shadow-lg">{loggedInUser?.name?.[0]}</div>
               <div className="text-[10px] font-black uppercase tracking-widest text-gray-500">Writing Studio | {loggedInUser?.name}</div>
             </div>
           </div>
           <div className="flex items-center gap-6">
-            <label className="flex items-center gap-2 cursor-pointer bg-blue-50 text-blue-600 px-4 py-2 rounded-full hover:bg-blue-100 transition-colors">
+            <label className="hidden md:flex items-center gap-2 cursor-pointer bg-blue-50 text-blue-600 px-4 py-2 rounded-full hover:bg-blue-100 transition-colors">
               <input type="checkbox" className="w-4 h-4" checked={cmsForm.sendNewsletter || false} onChange={e => setCmsForm({...cmsForm, sendNewsletter: e.target.checked})} />
               <span className="text-[11px] font-bold">뉴스레터 자동 발송</span>
             </label>
-            <button onClick={handleCMSPublish} disabled={isSendingNewsletter} className={`bg-yellow-400 text-black px-12 py-3.5 rounded-full font-black uppercase tracking-widest hover:bg-black hover:text-white transition-all shadow-xl active:scale-95 flex items-center gap-3 ${isSendingNewsletter ? 'opacity-50 cursor-not-allowed' : ''}`}>
-              <Save size={18} /> {isSendingNewsletter ? '발송 중...' : (editingId ? '수정 완료' : '기사 발행')}
+            <button onClick={handleCMSPublish} disabled={isSendingNewsletter} className={`bg-yellow-400 text-black px-6 md:px-12 py-3.5 rounded-full font-black uppercase tracking-widest hover:bg-black hover:text-white transition-all shadow-xl active:scale-95 flex items-center gap-3 ${isSendingNewsletter ? 'opacity-50 cursor-not-allowed' : ''}`}>
+              <Save size={18} /> {isSendingNewsletter ? '발송 중...' : (editingId ? '수정 완료' : '발행')}
             </button>
           </div>
         </header>
 
-        <main className="flex-1 bg-white max-w-5xl mx-auto w-full p-12 md:p-24 animate-in fade-in my-10 rounded-[60px] shadow-2xl border border-gray-100 overflow-hidden">
+        <main className="flex-1 bg-white max-w-5xl mx-auto w-full p-6 md:p-24 animate-in fade-in my-10 rounded-[40px] md:rounded-[60px] shadow-2xl border border-gray-100 overflow-hidden">
           <div className="space-y-16">
-            <div className="space-y-4">
-              <label className="text-[11px] font-black uppercase text-gray-400 tracking-widest">Section Category</label>
-              <select className="w-full bg-gray-50 border-2 border-gray-100 px-6 py-4 rounded-2xl font-black text-xs cursor-pointer focus:border-black transition-all" value={cmsForm.category} onChange={e => setCmsForm({...cmsForm, category: e.target.value})}>
-                {['NEWS', 'FASHION', 'INTERVIEW', 'LIFE', 'ARCHIVE'].map(c => <option key={c} value={c}>{c}</option>)}
-              </select>
-            </div>
-            
-            <div className="space-y-4">
-              <label className="text-[11px] font-black uppercase text-gray-400 tracking-widest">Main Headline</label>
-              <textarea placeholder="Headline..." className="w-full text-5xl md:text-6xl font-black italic border-none focus:ring-0 placeholder:text-gray-100 resize-none h-auto p-0 uppercase" value={cmsForm.title} onChange={e => setCmsForm({...cmsForm, title: e.target.value})} rows={2} />
-            </div>
-
-            <div className="space-y-4">
-              <label className="text-[11px] font-black uppercase text-gray-400 tracking-widest">Subtitle / Teaser</label>
-              <input type="text" placeholder="Subtitle..." className="w-full text-2xl font-medium border-none focus:ring-0 italic p-0" value={cmsForm.subtitle} onChange={e => setCmsForm({...cmsForm, subtitle: e.target.value})} />
-            </div>
-
-            <div className="space-y-4">
-              <label className="text-[11px] font-black uppercase text-gray-400 tracking-widest">Cover Media Asset</label>
-              <div className="relative aspect-[21/9] bg-[#F8F9FA] rounded-[40px] border-4 border-dashed border-gray-200 flex items-center justify-center overflow-hidden hover:border-black transition-all group shadow-inner">
-                {cmsForm.image ? (
-                  <div className="w-full h-full relative">
-                    <img src={cmsForm.image} className="w-full h-full object-cover" alt="Preview" />
-                    <label htmlFor="img-upload" className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 flex items-center justify-center cursor-pointer transition-opacity text-white text-xs font-black uppercase tracking-widest">이미지 교체</label>
-                  </div>
-                ) : (
-                  <label htmlFor="img-upload" className="cursor-pointer flex flex-col items-center gap-4 text-gray-300 group-hover:text-black transition-colors">
-                    <UploadCloud size={32} />
-                    <p className="font-black text-[10px] uppercase tracking-widest">고해상도 이미지 업로드</p>
-                  </label>
-                )}
-                <input type="file" id="img-upload" className="hidden" accept="image/*" onChange={(e) => { const f=e.target.files[0]; if(f){ const r=new FileReader(); r.onloadend=()=>setCmsForm({...cmsForm, image: r.result}); r.readAsDataURL(f); } }} />
-              </div>
-            </div>
-
-            <div className="space-y-8 pt-10 border-t">
-              <label className="text-[11px] font-black uppercase text-gray-400 tracking-widest">Narrative Content</label>
-              <div className="border-2 border-gray-100 rounded-[40px] overflow-hidden bg-white">
-                <div className="bg-gray-50 border-b-2 border-gray-100 p-6 flex flex-wrap gap-8 items-center">
-                  <div className="flex items-center gap-3">
-                    <Baseline size={16} className="text-gray-400"/>
-                    <input type="range" min="14" max="40" step="1" className="w-24 h-1.5 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-black" value={parseInt(cmsForm.style.fontSize)} onChange={e => setCmsForm({...cmsForm, style: {...cmsForm.style, fontSize: `${e.target.value}px`}})} />
-                  </div>
-                  <div className="flex gap-2">
-                    <button onClick={() => setCmsForm({...cmsForm, style: {...cmsForm.style, fontFamily: 'serif'}})} className={`px-4 py-1.5 rounded-lg text-[10px] font-bold transition-all ${cmsForm.style.fontFamily === 'serif' ? 'bg-black text-white' : 'bg-white text-gray-400 hover:bg-gray-100'}`}>Serif</button>
-                    <button onClick={() => setCmsForm({...cmsForm, style: {...cmsForm.style, fontFamily: 'sans-serif'}})} className={`px-4 py-1.5 rounded-lg text-[10px] font-bold transition-all ${cmsForm.style.fontFamily === 'sans-serif' ? 'bg-black text-white' : 'bg-white text-gray-400 hover:bg-gray-100'}`}>Sans</button>
-                  </div>
+            <select className="w-full bg-gray-50 border-2 border-gray-100 px-6 py-4 rounded-2xl font-black text-xs" value={cmsForm.category} onChange={e => setCmsForm({...cmsForm, category: e.target.value})}>
+              {['NEWS', 'FASHION', 'INTERVIEW', 'LIFE', 'ARCHIVE'].map(c => <option key={c} value={c}>{c}</option>)}
+            </select>
+            <textarea placeholder="기사 제목 (HeadLine)..." className="w-full text-4xl md:text-6xl font-black italic border-none focus:ring-0 placeholder:text-gray-100 resize-none h-auto p-0 uppercase" value={cmsForm.title} onChange={e => setCmsForm({...cmsForm, title: e.target.value})} rows={2} />
+            <input type="text" placeholder="기사 부제목 또는 리포트 요약..." className="w-full text-xl md:text-2xl font-medium border-none focus:ring-0 italic p-0" value={cmsForm.subtitle} onChange={e => setCmsForm({...cmsForm, subtitle: e.target.value})} />
+            <div className="relative aspect-[21/9] bg-[#F8F9FA] rounded-[30px] border-4 border-dashed border-gray-200 flex items-center justify-center overflow-hidden hover:border-black transition-all group">
+              {cmsForm.image ? (
+                <div className="w-full h-full relative">
+                  <img src={cmsForm.image} className="w-full h-full object-cover" alt="Preview" />
+                  <label htmlFor="img-upload" className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 flex items-center justify-center cursor-pointer transition-opacity text-white text-xs font-black uppercase tracking-widest">이미지 교체</label>
                 </div>
-                <textarea style={{ ...cmsForm.style }} placeholder="본문을 자유롭게 작성하세요..." className="w-full leading-relaxed border-none focus:ring-0 min-h-[700px] p-10 bg-transparent resize-y" value={cmsForm.content} onChange={e => setCmsForm({...cmsForm, content: e.target.value})} />
+              ) : (
+                <label htmlFor="img-upload" className="cursor-pointer flex flex-col items-center gap-4 text-gray-300 group-hover:text-black transition-colors">
+                  <UploadCloud size={32} /><p className="font-black text-[10px] uppercase tracking-widest">이미지 업로드</p>
+                </label>
+              )}
+              <input type="file" id="img-upload" className="hidden" accept="image/*" onChange={(e) => { const f=e.target.files[0]; if(f){ const r=new FileReader(); r.onloadend=()=>setCmsForm({...cmsForm, image: r.result}); r.readAsDataURL(f); } }} />
+            </div>
+            <div className="border-2 border-gray-100 rounded-[30px] overflow-hidden bg-white">
+              <div className="bg-gray-50 border-b-2 border-gray-100 p-6 flex flex-wrap gap-8 items-center">
+                <input type="range" min="14" max="40" step="1" className="w-24 accent-black" value={parseInt(cmsForm.style.fontSize)} onChange={e => setCmsForm({...cmsForm, style: {...cmsForm.style, fontSize: `${e.target.value}px`}})} />
+                <div className="flex gap-2">
+                  <button onClick={() => setCmsForm({...cmsForm, style: {...cmsForm.style, fontFamily: 'serif'}})} className={`px-4 py-1.5 rounded-lg text-[10px] font-bold transition-all ${cmsForm.style.fontFamily === 'serif' ? 'bg-black text-white' : 'bg-white text-gray-400 hover:bg-gray-100'}`}>Serif</button>
+                  <button onClick={() => setCmsForm({...cmsForm, style: {...cmsForm.style, fontFamily: 'sans-serif'}})} className={`px-4 py-1.5 rounded-lg text-[10px] font-bold transition-all ${cmsForm.style.fontFamily === 'sans-serif' ? 'bg-black text-white' : 'bg-white text-gray-400 hover:bg-gray-100'}`}>Sans</button>
+                </div>
               </div>
+              <textarea style={{ ...cmsForm.style }} placeholder="기사 본문 내용을 작성하세요..." className="w-full leading-relaxed border-none focus:ring-0 min-h-[600px] p-6 md:p-10 bg-transparent resize-y" value={cmsForm.content} onChange={e => setCmsForm({...cmsForm, content: e.target.value})} />
             </div>
           </div>
         </main>
@@ -404,7 +383,7 @@ const App = () => {
   }
 
   // ==========================================
-  // [VIEW] ADMIN: 관리 대시보드 (직원/기사 통합)
+  // VIEW: [ADMIN] (관리 대시보드)
   // ==========================================
   if (view === 'ADMIN') {
     if (!isAuthenticated) {
@@ -424,51 +403,47 @@ const App = () => {
     }
     return (
       <div className="min-h-screen flex bg-gray-50 text-gray-900 font-sans selection:bg-black selection:text-white w-full overflow-hidden">
-        <aside className="w-80 bg-black text-white flex flex-col min-h-screen sticky top-0 shadow-2xl z-20">
-          <div className="p-12 border-b border-gray-800">
-            <h1 className="text-4xl font-black italic tracking-tighter cursor-pointer" onClick={goHome}>CELEBRITY <span className="text-yellow-400">MAG.</span></h1>
-            <div className="mt-6 flex items-center gap-3 bg-gray-900 p-4 rounded-2xl">
+        <aside className="w-64 md:w-80 bg-black text-white flex flex-col min-h-screen sticky top-0 shadow-2xl z-20">
+          <div className="p-8 md:p-12 border-b border-gray-800">
+            <h1 className="text-3xl md:text-4xl font-black italic tracking-tighter cursor-pointer transition-transform hover:scale-105" onClick={goHome}>CELEBRITY <span className="text-yellow-400">MAG.</span></h1>
+            <div className="mt-6 flex items-center gap-3 bg-gray-900 p-3 rounded-xl border border-white/5">
               <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
-              <div className="text-[10px] font-black tracking-widest uppercase">{loggedInUser?.name}<br/><span className="text-gray-500 font-medium">{loggedInUser?.role} Access</span></div>
+              <div className="text-[9px] font-black tracking-widest uppercase">{loggedInUser?.name}<br/><span className="text-gray-500">{loggedInUser?.role} Access</span></div>
             </div>
           </div>
-          <nav className="flex-1 p-8 space-y-3">
+          <nav className="flex-1 p-6 md:p-8 space-y-2 md:space-y-3">
             {[
               { id: 'DASHBOARD', icon: LayoutDashboard, label: 'Analytics' },
               { id: 'ARTICLES', icon: FileText, label: 'Content Hub' },
               { id: 'SUBSCRIBERS', icon: Users, label: 'Audience' },
               ...(loggedInUser?.role === 'admin' ? [{ id: 'STAFF', icon: Shield, label: 'Staff Accounts' }] : [])
             ].map(tab => (
-              <button key={tab.id} onClick={() => setAdminTab(tab.id)} className={`w-full flex items-center gap-5 px-6 py-5 rounded-2xl font-black uppercase text-xs tracking-widest transition-all ${adminTab === tab.id ? 'bg-yellow-400 text-black shadow-xl scale-105' : 'text-gray-500 hover:bg-gray-800 hover:text-white'}`}><tab.icon size={20} /> {tab.label}</button>
+              <button key={tab.id} onClick={() => setAdminTab(tab.id)} className={`w-full flex items-center gap-4 px-5 py-4 md:px-6 md:py-5 rounded-2xl font-black uppercase text-[10px] md:text-xs tracking-widest transition-all ${adminTab === tab.id ? 'bg-yellow-400 text-black shadow-xl scale-105' : 'text-gray-500 hover:bg-gray-800 hover:text-white'}`}><tab.icon size={20} /> {tab.label}</button>
             ))}
             <div className="pt-10 border-t border-gray-800 mt-10">
-              <button onClick={() => {setEditingId(null); setCmsForm(resetForm); setView('STUDIO');}} className="w-full flex items-center justify-center gap-3 py-6 bg-white text-black rounded-3xl font-black uppercase tracking-widest text-[11px] hover:bg-yellow-400 shadow-2xl transition-all"><PenTool size={18} /> Writing Studio</button>
-              <button onClick={exportManagementData} className="w-full flex items-center justify-center gap-3 py-4 bg-gray-900 text-gray-400 rounded-2xl font-black uppercase tracking-widest text-[9px] hover:bg-gray-800 hover:text-white transition-all mt-4"><Download size={14} /> Export Backup</button>
+              <button onClick={() => {setEditingId(null); setCmsForm(resetForm); setView('STUDIO');}} className="w-full flex items-center justify-center gap-3 py-6 bg-white text-black rounded-3xl font-black uppercase tracking-widest text-[10px] md:text-[11px] hover:bg-yellow-400 shadow-2xl transition-all active:scale-95"><PenTool size={18} /> Writing Studio</button>
             </div>
           </nav>
-          <div className="p-10 border-t border-gray-800">
-            <button onClick={() => {setIsAuthenticated(false); setLoggedInUser(null);}} className="text-gray-500 hover:text-white font-black uppercase text-[10px] tracking-widest flex items-center gap-2 transition-colors hover:scale-105"><LogOut size={16}/> Logout</button>
+          <div className="p-8 border-t border-gray-800">
+            <button onClick={() => {setIsAuthenticated(false); setLoggedInUser(null); window.location.hash = '';}} className="text-gray-500 hover:text-white font-black uppercase text-[10px] tracking-widest flex items-center gap-2 transition-colors hover:scale-105"><LogOut size={16}/> Logout</button>
           </div>
         </aside>
 
-        <main className="flex-1 p-20 max-w-7xl mx-auto overflow-y-auto w-full">
+        <main className="flex-1 p-8 md:p-20 max-w-7xl mx-auto overflow-y-auto w-full">
           {adminTab === 'ARTICLES' ? (
              <div className="animate-in fade-in slide-in-from-bottom-8">
-               <h2 className="text-6xl font-black uppercase italic mb-16 tracking-tighter">Content Repository</h2>
-               <div className="bg-white rounded-[50px] shadow-sm border border-gray-100 overflow-hidden">
-                 <table className="w-full text-left">
+               <h2 className="text-5xl md:text-6xl font-black uppercase italic mb-16 tracking-tighter">Content Repository</h2>
+               <div className="bg-white rounded-[40px] md:rounded-[50px] shadow-sm border border-gray-100 overflow-x-auto">
+                 <table className="w-full text-left min-w-[800px]">
                    <thead className="bg-gray-50 text-[10px] font-black uppercase tracking-widest text-gray-400 border-b">
-                     <tr><th className="p-10">Visual & Headline</th><th className="p-10 text-center">Featured Status</th><th className="p-10 text-center">Actions</th></tr>
+                     <tr><th className="p-10">Visual & Headline</th><th className="p-10 text-center">Status</th><th className="p-10 text-center">Actions</th></tr>
                    </thead>
                    <tbody>
                      {articlesList.map(a => (
                        <tr key={a.id} className="border-b last:border-0 hover:bg-gray-50 transition-colors">
                          <td className="p-10 flex items-center gap-8">
-                           <img src={a.image} className="w-24 h-24 rounded-[30px] object-cover grayscale shadow-sm" alt="" />
-                           <div>
-                             <span className="font-black text-2xl italic tracking-tighter leading-tight block uppercase">{a.title}</span>
-                             <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest mt-2 block">{a.author} • {a.date}</span>
-                           </div>
+                           <img src={a.image} className="w-20 h-20 rounded-2xl object-cover grayscale shadow-sm border" alt="" />
+                           <div><span className="font-black text-2xl italic tracking-tighter block uppercase leading-none">{a.title}</span><span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest mt-2 block">{a.author} • {a.date}</span></div>
                          </td>
                          <td className="p-10">
                            <button onClick={() => {
@@ -476,12 +451,12 @@ const App = () => {
                              setArticlesList(updated);
                              addToast('📍 피처 기사가 변경되었습니다.');
                            }} disabled={loggedInUser?.role !== 'admin'} className={`mx-auto flex items-center gap-2 px-5 py-3 rounded-full text-[10px] font-black transition-all ${a.isFeatured ? 'bg-yellow-400 text-black shadow-lg scale-105' : 'bg-gray-100 text-gray-400'}`}>
-                             {a.isFeatured ? <Star size={12} fill="currentColor"/> : <StarOff size={12}/>} {a.isFeatured ? 'COVER PINNED' : 'STANDARD'}
+                             {a.isFeatured ? <Star size={12} fill="currentColor"/> : <StarOff size={12}/>} {a.isFeatured ? 'FEATURED' : 'STANDARD'}
                            </button>
                          </td>
                          <td className="p-10 flex justify-center gap-4">
                            <button onClick={() => { setEditingId(a.id); setCmsForm(a); setView('STUDIO'); }} className="p-4 bg-gray-900 text-white rounded-2xl hover:bg-yellow-400 hover:text-black transition-all shadow-md active:scale-90"><Edit3 size={18}/></button>
-                           <button onClick={() => { if(window.confirm('정말 삭제하시겠습니까?')) { setArticlesList(articlesList.filter(art => art.id !== a.id)); addToast('🗑️ 기사가 삭제되었습니다.'); } }} className="p-4 bg-red-50 text-red-500 rounded-2xl hover:bg-red-500 hover:text-white transition-all shadow-md active:scale-90"><Trash2 size={18}/></button>
+                           <button onClick={() => { if(window.confirm('정말 삭제하시겠습니까?')) { setArticlesList(articlesList.filter(art => art.id !== a.id)); addToast('🗑️ 삭제 완료.'); } }} className="p-4 bg-red-50 text-red-500 rounded-2xl hover:bg-red-500 hover:text-white transition-all shadow-md active:scale-90"><Trash2 size={18}/></button>
                          </td>
                        </tr>
                      ))}
@@ -491,70 +466,37 @@ const App = () => {
              </div>
           ) : adminTab === 'SUBSCRIBERS' ? (
             <div className="animate-in fade-in slide-in-from-bottom-8">
-              <h2 className="text-6xl font-black uppercase italic mb-16 tracking-tighter">Audience Engagement</h2>
-              <div className="bg-white rounded-[50px] shadow-sm border border-gray-100 p-10">
+              <h2 className="text-5xl md:text-6xl font-black uppercase italic mb-16 tracking-tighter">Audience</h2>
+              <div className="bg-white rounded-[40px] md:rounded-[50px] shadow-sm border border-gray-100 p-10">
                 <p className="text-xl font-bold mb-10">Total Registered: <span className="text-yellow-500">{subscribers.length}</span></p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   {subscribers.map((sub, i) => (
-                    <div key={i} className="flex items-center justify-between p-8 border border-gray-100 rounded-[35px] bg-gray-50 group hover:border-black transition-all">
+                    <div key={i} className="flex items-center justify-between p-8 border border-gray-100 rounded-[35px] bg-gray-50 group hover:border-black transition-all shadow-sm">
                       <div className="flex items-center gap-5">
                         <div className="w-14 h-14 bg-black text-white rounded-2xl flex items-center justify-center font-black text-xl shadow-lg">{sub.email[0].toUpperCase()}</div>
                         <div><p className="font-black text-lg text-gray-800 uppercase tracking-tighter">{sub.email}</p><p className="text-[10px] text-gray-400 font-bold uppercase tracking-widest">Joined: {sub.date}</p></div>
                       </div>
-                      <button onClick={() => { if(window.confirm('삭제하시겠습니까?')) setSubscribers(subscribers.filter(s => s.email !== sub.email)); }} className="p-3 text-red-100 group-hover:text-red-500 hover:bg-red-50 rounded-full transition-all"><Trash2 size={20}/></button>
+                      <button onClick={() => { if(window.confirm('삭제하시겠습니까?')) setSubscribers(subscribers.filter(s => s.email !== sub.email)); }} className="p-3 text-red-100 group-hover:text-red-500 hover:bg-red-50 rounded-full transition-all active:scale-90"><Trash2 size={20}/></button>
                     </div>
                   ))}
                 </div>
               </div>
             </div>
-          ) : adminTab === 'STAFF' && loggedInUser?.role === 'admin' ? (
-             <div className="animate-in fade-in slide-in-from-bottom-8">
-               <h2 className="text-6xl font-black uppercase italic mb-16 tracking-tighter leading-none">Staff Management</h2>
-               <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-                 <div className="lg:col-span-1 bg-white p-10 rounded-[40px] shadow-sm border h-fit sticky top-0">
-                   <h3 className="font-black uppercase mb-8 flex items-center gap-2 tracking-widest text-sm"><UserPlus size={20}/> New Account</h3>
-                   <form onSubmit={(e) => {
-                     e.preventDefault();
-                     if(adminAccounts.find(a => a.id === newAccInput.id)) return addToast('⚠️ 이미 존재하는 ID입니다.');
-                     setAdminAccounts([...adminAccounts, { ...newAccInput }]);
-                     setNewAccInput({ id: '', pw: '', name: '', role: 'reporter', email: '' });
-                     addToast('✅ 계정이 생성되었습니다.');
-                   }} className="space-y-6">
-                     <input required type="text" placeholder="LOGIN ID" className="w-full bg-gray-50 p-4 rounded-xl font-bold border-none focus:ring-2 focus:ring-black" value={newAccInput.id} onChange={e => setNewAccInput({...newAccInput, id: e.target.value})} />
-                     <input required type="password" placeholder="PASSWORD" className="w-full bg-gray-50 p-4 rounded-xl font-bold border-none focus:ring-2 focus:ring-black" value={newAccInput.pw} onChange={e => setNewAccInput({...newAccInput, pw: e.target.value})} />
-                     <input required type="text" placeholder="DISPLAY NAME" className="w-full bg-gray-50 p-4 rounded-xl font-bold border-none focus:ring-2 focus:ring-black" value={newAccInput.name} onChange={e => setNewAccInput({...newAccInput, name: e.target.value})} />
-                     <select className="w-full bg-gray-50 p-4 rounded-xl font-bold border-none" value={newAccInput.role} onChange={e => setNewAccInput({...newAccInput, role: e.target.value})}><option value="reporter">Reporter</option><option value="admin">Admin</option></select>
-                     <button type="submit" className="w-full bg-black text-white py-5 rounded-xl font-black uppercase tracking-widest hover:bg-yellow-400 hover:text-black transition-all">Create Staff</button>
-                   </form>
-                 </div>
-                 <div className="lg:col-span-2 space-y-6">
-                   {adminAccounts.map(acc => (
-                     <div key={acc.id} className="bg-white p-8 rounded-[35px] shadow-sm border flex items-center justify-between group hover:border-yellow-400 transition-all">
-                       <div className="flex items-center gap-6">
-                         <div className={`w-14 h-14 rounded-2xl flex items-center justify-center font-black ${acc.role === 'admin' ? 'bg-yellow-400 text-black shadow-lg' : 'bg-gray-100 text-black'}`}>{acc.name?.[0] || 'U'}</div>
-                         <div><p className="font-black text-xl uppercase tracking-tighter">{acc.name} <span className="text-[9px] font-black uppercase text-gray-400 bg-gray-100 px-2 py-0.5 rounded-full ml-2">{acc.role}</span></p><p className="text-[10px] text-gray-400 font-mono mt-1">ID: {acc.id} • Auth: {acc.role}</p></div>
-                       </div>
-                       {acc.id !== 'admin' && <button onClick={() => setAdminAccounts(adminAccounts.filter(a => a.id !== acc.id))} className="p-4 text-red-100 group-hover:text-red-500 hover:bg-red-50 rounded-2xl transition-all"><Trash2 size={24}/></button>}
-                     </div>
-                   ))}
-                 </div>
-               </div>
-             </div>
           ) : (
             <div className="animate-in fade-in space-y-16">
-              <h2 className="text-7xl font-black uppercase italic tracking-tighter leading-none">Intelligence</h2>
+              <h2 className="text-6xl md:text-7xl font-black uppercase italic tracking-tighter leading-none">Intelligence</h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-                <div className="bg-white p-14 rounded-[60px] shadow-sm border border-gray-100 transition-transform hover:-translate-y-2">
-                  <p className="text-[11px] font-black text-gray-400 uppercase mb-8 tracking-widest">Total Stories</p>
-                  <p className="text-9xl font-black italic tracking-tighter leading-none">{articlesList.length}</p>
+                <div className="bg-white p-14 rounded-[40px] md:rounded-[60px] shadow-sm border border-gray-100 transition-transform hover:-translate-y-2">
+                  <p className="text-[11px] font-black text-gray-400 uppercase mb-8 tracking-widest">Published Stories</p>
+                  <p className="text-7xl md:text-9xl font-black italic tracking-tighter leading-none">{articlesList.length}</p>
                 </div>
-                <div className="bg-white p-14 rounded-[60px] shadow-sm border border-gray-100 transition-transform hover:-translate-y-2">
+                <div className="bg-white p-14 rounded-[40px] md:rounded-[60px] shadow-sm border border-gray-100 transition-transform hover:-translate-y-2">
                   <p className="text-[11px] font-black text-gray-400 uppercase mb-8 tracking-widest">Global Audience</p>
-                  <p className="text-9xl font-black italic tracking-tighter leading-none">{subscribers.length}</p>
+                  <p className="text-7xl md:text-9xl font-black italic tracking-tighter leading-none">{subscribers.length}</p>
                 </div>
-                <div className="bg-black p-14 rounded-[60px] shadow-2xl text-white flex flex-col justify-between border-t-[20px] border-yellow-400 transition-transform hover:-translate-y-2">
+                <div className="bg-black p-14 rounded-[40px] md:rounded-[60px] shadow-2xl text-white flex flex-col justify-between border-t-[20px] border-yellow-400 transition-transform hover:-translate-y-2">
                   <p className="text-[11px] font-black uppercase text-yellow-400 tracking-widest mb-10">System Connectivity</p>
-                  <p className="text-5xl font-black italic leading-[0.9] uppercase">ONLINE &<br/>BROADCASTING</p>
+                  <p className="text-4xl md:text-5xl font-black italic leading-[0.9] uppercase">ONLINE &<br/>BROADCASTING</p>
                 </div>
               </div>
             </div>
@@ -565,16 +507,17 @@ const App = () => {
   }
 
   // ==========================================
-  // VIEW: [ARTICLE] (기사 상세 읽기 화면)
+  // VIEW: [ARTICLE] (기사 상세 읽기 - 모바일 스크롤 & AI 요약 섹션 복구)
   // ==========================================
   if (selectedArticle) {
     return (
-      <div className="animate-in fade-in duration-700 bg-white text-[#111] min-h-screen font-sans selection:bg-yellow-400 selection:text-black w-full max-w-full overflow-x-hidden relative">
+      <div className="animate-in fade-in duration-700 bg-white text-[#111] min-h-screen font-sans selection:bg-yellow-400 selection:text-black w-full overflow-x-hidden relative flex flex-col">
+        {/* 네비게이션바 (고정) */}
         <nav className="fixed top-0 w-full z-50 bg-black px-6 md:px-12 py-6 flex justify-between items-center shadow-2xl">
-          <div className="text-2xl md:text-3xl font-black cursor-pointer tracking-tighter italic text-white transition-all hover:scale-105 active:scale-95" onClick={goHome}>
+          <div className="text-2xl md:text-3xl font-black cursor-pointer tracking-tighter italic text-white hover:scale-105 active:scale-95 transition-all" onClick={goHome}>
             CELEBRITY <span className="text-yellow-400">MAG.</span>
           </div>
-          <button onClick={() => setIsSubscribeOpen(true)} className="bg-white text-black px-6 md:px-8 py-2.5 rounded-full font-black text-[10px] hover:bg-yellow-400 transition-all uppercase tracking-widest shadow-xl active:scale-95">Subscribe</button>
+          <button onClick={() => setIsSubscribeOpen(true)} className="bg-white text-black px-6 md:px-8 py-2.5 rounded-full font-black text-[10px] hover:bg-yellow-400 transition-all uppercase tracking-widest shadow-xl active:scale-95 shadow-yellow-400/10">Subscribe</button>
         </nav>
         
         {/* 독서 진행 상태바 */}
@@ -582,195 +525,225 @@ const App = () => {
           <div className="h-full bg-yellow-400 transition-all shadow-[0_0_15px_#facc15]" style={{ width: `${scrollProgress}%` }} />
         </div>
 
-        <div className="max-w-[1440px] mx-auto px-6 lg:px-12 grid grid-cols-12 gap-12 pt-48 pb-40">
-          <div className="col-span-12 lg:col-span-8 xl:col-span-7 pr-0 lg:pr-10 border-r-0 lg:border-r border-gray-100">
-            <button onClick={() => setSelectedArticle(null)} className="group flex items-center gap-2 mb-16 text-[11px] font-black text-gray-400 hover:text-black transition-all uppercase tracking-widest">
+        {/* 📍 메인 읽기 영역 (h-auto로 설정하여 모바일 스크롤 방해 요소 제거) */}
+        <main className="flex-1 w-full pt-48 pb-40 max-w-[1440px] mx-auto px-6 md:px-12 grid grid-cols-12 gap-6 md:gap-12 relative h-auto">
+          <div className="col-span-12 lg:col-span-8 xl:col-span-7 pr-0 lg:pr-10 border-r-0 lg:border-r border-gray-100 h-auto overflow-visible">
+            <button onClick={() => setSelectedArticle(null)} className="group flex items-center gap-3 mb-12 text-[11px] font-black text-gray-400 hover:text-black transition-all uppercase tracking-[0.3em]">
               <ArrowLeft size={16} className="group-hover:-translate-x-1 transition-transform" /> Back to Edition
             </button>
-            <h1 className="text-4xl md:text-[80px] font-black leading-[0.95] mb-12 tracking-tighter text-gray-900 uppercase italic drop-shadow-sm">{selectedArticle.title}</h1>
+            <h1 className="text-4xl md:text-[80px] font-black leading-[1.0] md:leading-[0.95] mb-12 tracking-tighter text-gray-900 uppercase italic drop-shadow-sm break-keep">{selectedArticle.title}</h1>
             
             <div className="flex flex-wrap items-center justify-between border-y border-gray-100 py-8 mb-16 text-gray-500 text-xs font-bold gap-6">
-              <div className="flex flex-wrap items-center gap-6 uppercase tracking-widest">
+              <div className="flex flex-wrap items-center gap-4 md:gap-6 uppercase tracking-widest">
                 <span className="bg-black text-white px-4 py-1.5 rounded-sm text-[10px] font-black">{selectedArticle.category}</span>
                 <span className="text-gray-300">|</span><span>{selectedArticle.date}</span>
                 <span className="text-gray-300">|</span><span className="text-yellow-600 font-black underline decoration-yellow-200 underline-offset-4">{getReadTime(selectedArticle.content)}</span>
-                <span className="text-gray-300">|</span><span className="text-black font-black flex items-center gap-2 uppercase"><UserCircle size={14}/> {selectedArticle.author}</span>
+                <span className="text-gray-300">|</span><span className="text-black font-black flex items-center gap-2 uppercase transition-colors hover:text-yellow-500"><UserCircle size={14}/> {selectedArticle.author}</span>
               </div>
               <div className="flex items-center gap-6">
-                 <button onClick={() => handleShare('facebook', selectedArticle)} className="text-gray-400 hover:text-[#1877F2] transition-all hover:scale-110 active:scale-90"><Facebook size={20}/></button>
-                 <button onClick={() => handleShare('twitter', selectedArticle)} className="text-gray-400 hover:text-[#1DA1F2] transition-all hover:scale-110 active:scale-90"><Twitter size={20}/></button>
-                 <button onClick={() => handleShare('link', selectedArticle)} className="text-gray-400 hover:text-black transition-all hover:scale-110 active:scale-90"><LinkIcon size={20}/></button>
+                 <button onClick={() => handleShare('facebook', selectedArticle)} className="text-gray-400 hover:text-[#1877F2] transition-all active:scale-90 hover:scale-110"><Facebook size={20}/></button>
+                 <button onClick={() => handleShare('twitter', selectedArticle)} className="text-gray-400 hover:text-[#1DA1F2] transition-all active:scale-90 hover:scale-110"><Twitter size={20}/></button>
+                 <button onClick={() => handleShare('link', selectedArticle)} className="text-gray-400 hover:text-black transition-all active:scale-90 hover:scale-110"><LinkIcon size={20}/></button>
               </div>
             </div>
 
-            <div className="mb-20 rounded-[40px] md:rounded-[60px] overflow-hidden shadow-2xl relative bg-black group border border-gray-100">
-               <img src={selectedArticle.image} className="w-full h-full object-cover transition-all duration-[4s] group-hover:scale-110" alt="Visual Content" />
+            {/* 📍 [복구 완료] AI 핵심 요약 리포트 섹션 */}
+            {selectedArticle.summary && (
+              <div className="bg-[#fcfcfc] border-2 border-gray-100 rounded-[35px] p-8 md:p-12 mb-16 shadow-sm relative overflow-hidden group hover:border-yellow-400/30 transition-all">
+                <div className="absolute top-0 left-0 w-2 h-full bg-yellow-400"></div>
+                <div className="flex items-center gap-3 mb-6">
+                  <div className="w-8 h-8 bg-black text-yellow-400 rounded-xl flex items-center justify-center font-black text-xs shadow-lg shadow-black/10">AI</div>
+                  <span className="text-[11px] font-black uppercase tracking-[0.3em] text-gray-900 font-bold">핵심 요약 리포트</span>
+                </div>
+                <p className="text-xl md:text-2xl font-bold text-gray-700 leading-relaxed italic break-keep">"{selectedArticle.summary}"</p>
+              </div>
+            )}
+
+            {/* 메인 비주얼 이미지 (모바일 비율 최적화) */}
+            <div className="mb-16 rounded-[40px] md:rounded-[60px] overflow-hidden shadow-2xl relative bg-black border border-gray-100 w-full h-auto min-h-[300px]">
+               <img src={selectedArticle.image} className="w-full h-full object-cover transition-all duration-[5s] hover:scale-110" alt="Article Visual Narrative" />
                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
             </div>
 
-            <div className="prose prose-xl max-w-none text-[#222] whitespace-pre-line leading-[1.8] pb-40 font-serif selection:bg-black selection:text-yellow-400" style={{ ...(selectedArticle.style || {fontSize: '20px'}) }}>
+            {/* 📍 본문 텍스트 (줄 바꿈 및 짤림 방지 최적화) */}
+            <div className="prose prose-xl max-w-none text-[#222] whitespace-pre-line leading-[1.85] pb-32 font-serif text-xl md:text-2xl break-words selection:bg-black selection:text-yellow-400 h-auto overflow-visible" style={{ ...(selectedArticle.style || {fontSize: '20px'}) }}>
               {selectedArticle.content}
             </div>
             
-            <div className="flex items-center gap-10 p-16 bg-[#F8F9FA] rounded-[60px] mb-20 border border-gray-100 relative group overflow-hidden">
+            {/* 작가 서명 섹션 */}
+            <div className="flex flex-col md:flex-row items-center gap-8 md:gap-10 p-12 md:p-16 bg-[#F8F9FA] rounded-[60px] mb-20 border border-gray-100 relative group overflow-hidden text-center md:text-left h-auto shadow-sm">
                <div className="absolute top-0 right-0 w-60 h-60 bg-yellow-400/5 rounded-full -mr-32 -mt-32 group-hover:scale-150 transition-transform duration-[1.5s]" />
-               <div className="w-24 h-24 rounded-[30px] bg-black flex items-center justify-center text-yellow-400 font-black text-3xl shadow-2xl transform group-hover:rotate-12 transition-transform">{selectedArticle.author?.[0] || 'M'}</div>
+               <div className="w-24 h-24 rounded-[30px] bg-black flex items-center justify-center text-yellow-400 font-black text-4xl shadow-2xl transform group-hover:rotate-12 transition-transform duration-500 shadow-yellow-400/20">{selectedArticle.author?.[0] || 'M'}</div>
                <div className="relative z-10">
-                 <p className="text-[10px] font-black uppercase text-gray-400 tracking-[0.4em] mb-2">Editorial Narrative Staff</p>
-                 <p className="text-4xl font-black text-gray-900 italic uppercase">{selectedArticle.author}</p>
+                 <p className="text-[10px] font-black uppercase text-gray-400 tracking-[0.4em] mb-2 font-bold">Narrative Authored By</p>
+                 <p className="text-4xl font-black text-gray-900 italic uppercase drop-shadow-sm">{selectedArticle.author}</p>
                  <p className="text-md font-medium text-gray-500 mt-3 font-mono underline decoration-yellow-400 decoration-4 underline-offset-8 decoration-opacity-30">{selectedArticle.authorEmail || 'reporter@celebritymag.co.kr'}</p>
                </div>
             </div>
           </div>
 
-          <div className="hidden lg:block col-span-4 xl:col-span-3 space-y-20 sticky top-48 h-fit">
-             <div className="bg-[#111] rounded-[60px] p-12 shadow-2xl border border-white/5 overflow-hidden relative group">
-                <h4 className="flex items-center gap-3 text-[11px] font-black uppercase tracking-[0.4em] text-yellow-400 border-b border-white/10 pb-6 mb-12">
-                  <TrendingUp size={18}/> Top Narrative Trends
+          {/* 📍 사이드바 (PC 전용 - Sticky 기능 강화) */}
+          <div className="hidden lg:block col-span-4 xl:col-span-3 space-y-16 sticky top-48 h-fit">
+             <div className="bg-[#111] rounded-[60px] p-12 shadow-2xl border border-white/5 overflow-hidden relative group shadow-yellow-400/5">
+                <h4 className="flex items-center gap-3 text-[11px] font-black uppercase tracking-[0.4em] text-yellow-400 border-b border-white/10 pb-6 mb-12 font-bold">
+                  <TrendingUp size={18}/> Top Trending List
                 </h4>
                 <div className="space-y-12">
                    {articlesList.filter(a => a.id !== selectedArticle?.id).slice(0,4).map((trend, i) => (
-                     <div key={trend.id} onClick={() => openArticle(trend)} className="flex gap-6 group cursor-pointer items-start">
+                     <div key={trend.id} onClick={() => openArticle(trend)} className="flex gap-6 group cursor-pointer items-start transition-all hover:translate-x-2">
                         <span className="text-5xl font-black text-white/5 group-hover:text-yellow-400/50 transition-all italic leading-none">{i+1}</span>
                         <div>
-                          <p className="text-[15px] font-bold text-gray-200 leading-tight group-hover:text-white transition-colors line-clamp-2 uppercase">"{trend.title}"</p>
-                          <p className="text-[10px] font-black text-gray-500 uppercase tracking-widest mt-3">#{trend.category}</p>
+                          <p className="text-[15px] font-bold text-gray-200 leading-tight group-hover:text-white transition-colors line-clamp-2 uppercase font-bold">"{trend.title}"</p>
+                          <p className="text-[10px] font-black text-gray-500 uppercase tracking-widest mt-3 font-bold">#{trend.category}</p>
                         </div>
                      </div>
                    ))}
                 </div>
              </div>
+             <div className="bg-yellow-400 rounded-[50px] p-10 text-black text-center shadow-2xl transition-transform hover:rotate-2">
+               <Camera size={40} className="mx-auto mb-6" />
+               <h5 className="font-black text-xl uppercase tracking-tighter mb-4 leading-none">Capture the<br/>Moment.</h5>
+               <p className="text-[10px] font-bold uppercase tracking-widest opacity-60">Professional Photography Issue</p>
+             </div>
           </div>
-        </div>
+        </main>
       </div>
     );
   }
 
   // ==========================================
-  // VIEW: [MAGAZINE] (복구된 대규모 메인 UI)
+  // VIEW: [MAGAZINE] (대규모 메인 홈 레이아웃)
   // ==========================================
   return (
-    <div className="bg-black text-white font-sans selection:bg-yellow-400 selection:text-black w-full max-w-full overflow-x-hidden relative min-h-screen">
+    <div className="bg-black text-white font-sans selection:bg-yellow-400 selection:text-black w-full overflow-x-hidden relative flex flex-col min-h-screen">
       <style>{`
         @keyframes marquee { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
         .animate-marquee { animation: marquee 30s linear infinite; }
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,900;1,900&display=swap');
-        html, body { font-family: 'Montserrat', sans-serif; overflow-x: hidden; width: 100%; max-width: 100vw; background-color: #000; margin: 0; padding: 0; position: relative; }
+        html, body { font-family: 'Montserrat', sans-serif; overflow-x: hidden; width: 100%; max-width: 100vw; background-color: #000; margin: 0; padding: 0; position: relative; height: auto; }
         .no-scrollbar::-webkit-scrollbar { display: none; }
         .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
         * { box-sizing: border-box; }
       `}</style>
       
       <nav className={`fixed w-full z-50 transition-all px-6 md:px-12 py-8 flex justify-between items-center ${scrolled ? 'bg-black/90 backdrop-blur-xl border-b border-white/5' : 'bg-transparent'}`}>
-        <div className="text-3xl md:text-4xl font-black cursor-pointer tracking-tighter italic hover:scale-105 transition-transform" onClick={goHome}>
+        <div className="text-3xl md:text-4xl font-black cursor-pointer tracking-tighter italic hover:scale-105 active:scale-95 transition-transform" onClick={goHome}>
           CELEBRITY <span className="text-yellow-400">MAG.</span>
         </div>
         <button onClick={() => setIsSubscribeOpen(true)} className="bg-white text-black px-8 md:px-12 py-3.5 rounded-full font-black text-[11px] hover:bg-yellow-400 transition-all uppercase tracking-widest shadow-2xl active:scale-90">Subscribe</button>
       </nav>
 
-      {/* 📍 Hero Section: 제목 겹침 및 간격 완벽 해결 */}
-      <header className="relative min-h-[95vh] flex items-center justify-center pt-52 pb-24 px-6 md:px-12 overflow-hidden bg-[#0a0a0a]">
-        <img src={featuredArticle?.image} className="absolute inset-0 w-full h-full object-cover opacity-60 grayscale scale-110 hover:scale-100 transition-transform duration-[5s] ease-out" alt="Hero" />
+      {/* 📍 히어로 섹션: 모바일 & PC 겹침 현상 해결 */}
+      <header className="relative min-h-[90vh] md:min-h-screen flex items-center justify-center pt-52 pb-24 px-6 md:px-12 overflow-hidden bg-[#0a0a0a] w-full">
+        <img src={featuredArticle?.image} className="absolute inset-0 w-full h-full object-cover opacity-50 md:opacity-60 grayscale scale-110 hover:scale-100 transition-transform duration-[5s] ease-out" alt="Featured Story Narrative" />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent" />
-        <div className="relative z-10 text-center max-w-7xl">
-           <span className="inline-block px-5 py-1.5 bg-yellow-400 text-black font-black text-[10px] uppercase tracking-[0.4em] mb-12 shadow-2xl">Featured Narrative • Issue #12</span>
-           <h1 className="text-[12vw] md:text-[10vw] font-black leading-[0.9] tracking-tighter italic uppercase mb-12 drop-shadow-[0_20px_60px_rgba(0,0,0,0.8)]">
+        <div className="relative z-10 text-center max-w-7xl w-full h-auto">
+           <span className="inline-block px-4 py-1.5 bg-yellow-400 text-black font-black text-[9px] md:text-[10px] uppercase tracking-[0.4em] mb-12 shadow-2xl font-bold">Featured Story • Vol. 12</span>
+           <h1 className="text-[12vw] md:text-[10vw] font-black leading-[1.0] md:leading-[0.9] tracking-tighter italic uppercase mb-12 drop-shadow-[0_20px_60px_rgba(0,0,0,0.8)] break-keep">
               {featuredArticle?.title}
            </h1>
-           <p className="text-2xl md:text-3xl font-medium italic text-gray-300 mb-16 max-w-4xl mx-auto leading-tight opacity-90">"{featuredArticle?.subtitle}"</p>
-           <button onClick={() => openArticle(featuredArticle)} className="bg-white text-black px-24 py-7 rounded-full font-black uppercase text-sm tracking-[0.6em] hover:bg-yellow-400 hover:scale-110 transition-all shadow-2xl active:scale-95">Explore Archive</button>
+           <p className="text-xl md:text-3xl font-medium italic text-gray-300 mb-16 max-w-4xl mx-auto leading-tight opacity-90 px-4 md:px-0">"{featuredArticle?.subtitle}"</p>
+           <button onClick={() => openArticle(featuredArticle)} className="bg-white text-black px-16 md:px-24 py-5 md:py-7 rounded-full font-black uppercase text-[11px] md:text-sm tracking-[0.6em] hover:bg-yellow-400 hover:scale-110 transition-all shadow-2xl active:scale-95">Engage Editorial</button>
         </div>
       </header>
 
-      {/* 📍 마케(Marquee) 띠: 충분한 상하 여백으로 분리 */}
-      <div className="bg-white text-black py-10 my-20 overflow-hidden border-y border-white whitespace-nowrap italic font-black uppercase text-5xl md:text-7xl tracking-tighter leading-none relative z-10 shadow-2xl w-full">
-        <div className="inline-block animate-marquee">• <span className="text-red-500 animate-pulse">●</span> LIVE • {featuredArticle?.title} • THE STUDIO IS NOW OPEN FOR STAFF • EXCLUSIVE • TRENDING IN {activeTab} </div>
-        <div className="inline-block animate-marquee">• <span className="text-red-500 animate-pulse">●</span> LIVE • {featuredArticle?.title} • THE STUDIO IS NOW OPEN FOR STAFF • EXCLUSIVE • TRENDING IN {activeTab} </div>
+      {/* 📍 마케 띠 (흐르는 텍스트) */}
+      <div className="bg-white text-black py-10 my-16 overflow-hidden border-y border-white whitespace-nowrap italic font-black uppercase text-4xl md:text-7xl tracking-tighter leading-none relative z-10 shadow-2xl w-full">
+        <div className="inline-block animate-marquee">• <span className="text-red-500 animate-pulse">●</span> LIVE • {featuredArticle?.title} • THE STUDIO IS NOW OPEN FOR STAFF • NEW EDITION • TRENDING IN {activeTab} </div>
+        <div className="inline-block animate-marquee">• <span className="text-red-500 animate-pulse">●</span> LIVE • {featuredArticle?.title} • THE STUDIO IS NOW OPEN FOR STAFF • NEW EDITION • TRENDING IN {activeTab} </div>
       </div>
 
-      {/* 📍 Hot List Section: 드래그 스크롤 기능 통합 */}
-      <section className="py-40">
-        <div className="max-w-[1600px] mx-auto px-6 lg:px-12 mb-24 flex flex-col md:flex-row justify-between items-end gap-12">
-           <h2 className="text-[70px] md:text-[100px] font-black italic tracking-tighter uppercase leading-none">The<br/><span className="text-yellow-400">Hot List.</span></h2>
-           <div className="flex flex-col items-end gap-10">
-              <div className="flex flex-wrap gap-6 justify-end">
+      {/* 📍 Hot List 섹션 (마우스 드래그 스크롤 슬라이더) */}
+      <section className="py-24 md:py-40 flex flex-col items-center w-full h-auto">
+        <div className="max-w-[1600px] w-full mx-auto px-6 lg:px-12 mb-20 flex flex-col md:flex-row justify-between items-end gap-10">
+           <h2 className="text-6xl md:text-[100px] font-black italic tracking-tighter uppercase leading-none font-black">The<br/><span className="text-yellow-400">Hot List.</span></h2>
+           <div className="flex flex-col items-end gap-10 w-full md:w-auto">
+              <div className="flex flex-wrap gap-4 md:gap-6 justify-end w-full">
                 {['ALL', 'NEWS', 'FASHION', 'INTERVIEW', 'LIFE'].map(c => (
-                  <button key={c} onClick={() => setActiveTab(c)} className={`text-[12px] font-black uppercase tracking-[0.4em] transition-all hover:scale-110 active:scale-90 ${activeTab === c ? 'text-yellow-400 border-b-2 border-yellow-400 pb-2' : 'text-gray-500 hover:text-white'}`}>
+                  <button key={c} onClick={() => setActiveTab(c)} className={`text-[10px] md:text-[12px] font-black uppercase tracking-[0.4em] transition-all hover:scale-110 active:scale-90 font-bold ${activeTab === c ? 'text-yellow-400 border-b-2 border-yellow-400 pb-2' : 'text-gray-500 hover:text-white'}`}>
                     {c}
                   </button>
                 ))}
               </div>
               <div className="flex gap-6">
-                <button onClick={() => sliderRef.current.scrollBy({ left: -500, behavior: 'smooth' })} className="w-14 h-14 md:w-16 md:h-16 rounded-full border border-white/10 flex items-center justify-center hover:bg-white hover:text-black transition-all active:scale-90"><ChevronLeft size={28}/></button>
-                <button onClick={() => sliderRef.current.scrollBy({ left: 500, behavior: 'smooth' })} className="w-14 h-14 md:w-16 md:h-16 rounded-full border border-white/10 flex items-center justify-center hover:bg-white hover:text-black transition-all active:scale-90"><ChevronRight size={28}/></button>
+                <button onClick={() => sliderRef.current.scrollBy({ left: -400, behavior: 'smooth' })} className="w-12 h-12 md:w-16 md:h-16 rounded-full border border-white/10 flex items-center justify-center hover:bg-white hover:text-black transition-all active:scale-90 shadow-xl"><ChevronLeft size={28}/></button>
+                <button onClick={() => sliderRef.current.scrollBy({ left: 400, behavior: 'smooth' })} className="w-12 h-12 md:w-16 md:h-16 rounded-full border border-white/10 flex items-center justify-center hover:bg-white hover:text-black transition-all active:scale-90 shadow-xl"><ChevronRight size={28}/></button>
               </div>
            </div>
         </div>
         
+        {/* 드래그 슬라이더 컨테이너 */}
         <div 
           ref={sliderRef} 
           onMouseDown={handleDragStart}
           onMouseLeave={handleDragEnd}
           onMouseUp={handleDragEnd}
           onMouseMove={handleDragMove}
-          className={`flex gap-12 overflow-x-auto no-scrollbar px-6 lg:px-12 pb-32 select-none ${isDragging ? 'cursor-grabbing snap-none' : 'cursor-grab snap-x snap-mandatory scroll-smooth'}`}
+          className={`w-full flex gap-8 md:gap-12 overflow-x-auto no-scrollbar px-6 lg:px-12 pb-32 select-none ${isDragging ? 'cursor-grabbing snap-none' : 'cursor-grab snap-x snap-mandatory scroll-smooth'}`}
         >
             {gridArticles.filter(a => activeTab === 'ALL' || a.category === activeTab).length > 0 ? (
               gridArticles.filter(a => activeTab === 'ALL' || a.category === activeTab).map((article) => (
                 <div 
                   key={article.id} 
-                  onClick={(e) => {
-                    if (isDragMove) { e.preventDefault(); return; }
-                    openArticle(article);
-                  }} 
-                  className="min-w-[340px] md:min-w-[650px] aspect-[4/5] bg-[#111] rounded-[60px] relative overflow-hidden group snap-center border border-white/5 shadow-2xl transition-transform hover:-translate-y-2"
+                  onClick={(e) => { if (isDragMove) { e.preventDefault(); return; } openArticle(article); }} 
+                  className="min-w-[300px] md:min-w-[650px] aspect-[4/5] bg-[#111] rounded-[40px] md:rounded-[60px] relative overflow-hidden group snap-center border border-white/5 shadow-2xl transition-transform hover:-translate-y-2"
                 >
-                   <img src={article.image} className="absolute inset-0 w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-[1.5s]" alt="Slider Asset" />
+                   <img src={article.image} className="absolute inset-0 w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-[1.5s]" alt="Slider Interactive Item" />
                    <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-90" />
-                   <div className="absolute bottom-16 left-16 right-16">
-                      <span className="text-[11px] font-black uppercase text-yellow-400 tracking-[0.4em] block mb-6">{article.category}</span>
-                      <h3 className="text-4xl md:text-6xl font-black italic tracking-tighter uppercase leading-none text-white group-hover:text-yellow-400 transition-colors drop-shadow-xl">{article.title}</h3>
+                   <div className="absolute bottom-10 left-10 md:bottom-16 md:left-16 right-10 md:right-16">
+                      <span className="text-[10px] md:text-[11px] font-black uppercase text-yellow-400 tracking-[0.4em] block mb-4 md:mb-6 font-bold">{article.category}</span>
+                      <h3 className="text-3xl md:text-6xl font-black italic tracking-tighter uppercase leading-[1.0] md:leading-none text-white group-hover:text-yellow-400 transition-colors drop-shadow-xl break-keep">{article.title}</h3>
                    </div>
                 </div>
               ))
             ) : (
-              <div className="w-full py-40 text-center text-gray-500 font-black italic tracking-[0.5em] text-2xl uppercase">No stories in this section.</div>
+              <div className="w-full py-40 text-center text-gray-500 font-black italic tracking-[0.5em] text-2xl uppercase font-bold">No entries in this narrative section.</div>
             )}
         </div>
       </section>
 
-      {/* 📍 Footer: 25vw 텍스트가 화면을 늘리지 않도록 overflow-hidden 처리 */}
-      <footer className="bg-white text-black pt-48 pb-24 px-6 md:px-12 text-center border-t border-black w-full overflow-hidden relative">
-        <h2 className="text-[25vw] font-black italic tracking-tighter leading-[0.7] mb-32 uppercase select-none pointer-events-none opacity-90 transition-opacity hover:opacity-100">CELEBRITY <span className="text-yellow-400">MAG.</span></h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-20 items-center border-t border-black/5 pt-32">
-          <p className="text-[10px] font-black uppercase tracking-[0.5em] text-center md:text-left opacity-30 italic">Built for the Bold Visionary.</p>
-          <div className="flex justify-center gap-12 md:gap-20 font-black uppercase text-[11px] tracking-[0.6em]">
-            <a href="#" className="hover:text-yellow-500 transition-all hover:scale-110">Instagram</a>
-            <a href="#admin" onClick={(e) => { e.preventDefault(); setView('ADMIN'); window.scrollTo(0,0); }} className="hover:text-yellow-500 transition-all hover:scale-110">Staff Portal</a>
-            <a href="#" className="hover:text-yellow-500 transition-all hover:scale-110">Youtube</a>
+      {/* 📍 푸터 영역 (거대 텍스트 짤림 방지 최적화) */}
+      <footer className="bg-white text-black pt-40 md:pt-48 pb-24 px-6 md:px-12 text-center border-t border-black w-full overflow-hidden relative">
+        <div className="overflow-hidden w-full h-auto">
+          <h2 className="text-[25vw] font-black italic tracking-tighter leading-[0.7] mb-24 md:mb-32 uppercase select-none pointer-events-none opacity-90 transition-opacity hover:opacity-100 whitespace-nowrap">
+            CELEBRITY <span className="text-yellow-400">MAG.</span>
+          </h2>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-16 md:gap-20 items-center border-t border-black/5 pt-24 md:pt-32">
+          <p className="text-[10px] font-black uppercase tracking-[0.5em] text-center md:text-left opacity-30 italic font-bold">Crafted for the Bold Visionary Mind.</p>
+          <div className="flex justify-center gap-10 md:gap-20 font-black uppercase text-[10px] md:text-[11px] tracking-[0.6em]">
+            <a href="#" className="hover:text-yellow-500 transition-all hover:scale-110 font-bold">Instagram</a>
+            {/* 📍 관리자 접속 강화된 링크 */}
+            <a href="#admin" onClick={(e) => { 
+                e.preventDefault(); 
+                window.location.hash = 'admin'; // 해시 강제 삽입
+                setView('ADMIN'); 
+                window.scrollTo(0,0); 
+              }} className="hover:text-yellow-500 transition-all hover:scale-110 border-b border-black font-black">Staff Portal</a>
+            <a href="#" className="hover:text-yellow-500 transition-all hover:scale-110 font-bold">Youtube</a>
           </div>
-          <p className="text-[11px] font-black uppercase tracking-[0.5em] text-center md:text-right opacity-30 italic">© 2026 Studio Publishing Corp.</p>
+          <p className="text-[10px] font-black uppercase tracking-[0.5em] text-center md:text-right opacity-30 italic font-bold">© 2026 Studio Publishing Corp.</p>
         </div>
       </footer>
 
-      {/* 구독 모달 */}
+      {/* 📍 [수정됨] 구독 신청 및 성공 모달 (한글 지원) */}
       {isSubscribeOpen && (
         <div className="fixed inset-0 z-[100] flex items-center justify-center p-6 animate-in fade-in duration-500">
           <div className="absolute inset-0 bg-black/95 backdrop-blur-md" onClick={() => setIsSubscribeOpen(false)} />
-          <div className="relative bg-[#0a0a0a] border border-white/10 text-white max-w-3xl w-full p-20 md:p-32 rounded-[60px] md:rounded-[100px] shadow-[0_0_150px_rgba(250,204,21,0.2)] text-center">
+          <div className="relative bg-[#0a0a0a] border border-white/10 text-white max-w-3xl w-full p-12 md:p-32 rounded-[50px] md:rounded-[100px] shadow-[0_0_150px_rgba(250,204,21,0.2)] text-center overflow-hidden">
             {isSubscribed ? (
               <div className="animate-in zoom-in duration-500">
-                <CheckCircle2 size={120} className="mx-auto text-yellow-400 mb-12" />
-                <h2 className="text-6xl font-black italic tracking-tighter uppercase mb-8 leading-none">Access<br/>Granted.</h2>
-                <p className="text-gray-400 font-bold uppercase tracking-widest">You are now in the inner circle.</p>
+                <CheckCircle2 size={100} className="mx-auto text-yellow-400 mb-10 shadow-2xl shadow-yellow-400/20" />
+                <h2 className="text-5xl md:text-6xl font-black italic tracking-tighter uppercase mb-6 leading-none font-black">접근 승인 완료.</h2>
+                <p className="text-gray-400 font-bold uppercase tracking-widest text-sm">이제 셀러브리티 매거진의 핵심 멤버(Inner Circle)입니다.</p>
               </div>
             ) : (
               <div>
-                <h2 className="text-7xl md:text-8xl font-black italic tracking-tighter uppercase mb-10 leading-none">JOIN THE<br/><span className="text-yellow-400">CIRCLE.</span></h2>
-                <p className="text-gray-400 text-sm mb-16 font-medium tracking-tight max-w-sm mx-auto">가장 앞선 트렌드와 독점 기사를 매주 이메일로 받아보세요.</p>
-                <form onSubmit={handleSubscribe} className="space-y-12">
-                  <input value={subscribeEmail} onChange={(e) => setSubscribeEmail(e.target.value)} required type="email" placeholder="EMAIL ADDRESS" className="w-full bg-transparent border-b-4 border-white/20 py-6 text-2xl md:text-4xl font-black focus:outline-none focus:border-yellow-400 text-center tracking-tighter transition-all placeholder:text-gray-800" />
-                  <button type="submit" className="w-full bg-yellow-400 text-black py-6 rounded-full font-black uppercase tracking-[0.5em] text-xs hover:bg-white transition-all shadow-3xl active:scale-95">Request Access</button>
+                <h2 className="text-5xl md:text-8xl font-black italic tracking-tighter uppercase mb-8 leading-none font-black">이너 서클<br/><span className="text-yellow-400">가입하기</span></h2>
+                <p className="text-gray-400 text-sm mb-12 font-medium tracking-tight max-w-sm mx-auto font-bold opacity-70">가장 앞선 트렌드와 독점 인터뷰를 매주 이메일로 가장 먼저 받아보세요.</p>
+                <form onSubmit={handleSubscribe} className="space-y-10">
+                  <input value={subscribeEmail} onChange={(e) => setSubscribeEmail(e.target.value)} required type="email" placeholder="여기에 이메일 주소 입력" className="w-full bg-transparent border-b-4 border-white/20 py-4 text-2xl md:text-4xl font-black focus:outline-none focus:border-yellow-400 text-center tracking-tighter transition-all placeholder:text-gray-800" />
+                  <button type="submit" className="w-full bg-yellow-400 text-black py-6 rounded-full font-black uppercase tracking-[0.5em] text-xs hover:bg-white transition-all shadow-3xl active:scale-95 font-black">무료 구독 신청하기</button>
                 </form>
               </div>
             )}
@@ -778,17 +751,17 @@ const App = () => {
         </div>
       )}
 
-      {/* Top 버튼 및 토스트 알림 시스템 */}
-      <div className="fixed bottom-12 right-12 z-[60] flex flex-col gap-6">
-        <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="w-20 h-20 bg-yellow-400 rounded-full flex items-center justify-center text-black shadow-[0_0_80px_rgba(250,204,21,0.4)] hover:bg-white transition-all hover:scale-110 active:scale-90 group relative border border-black/10">
-          <Zap size={36} fill="currentColor"/>
-          <span className="absolute right-28 bg-black text-white text-[10px] font-black uppercase px-5 py-2.5 rounded-full opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none tracking-[0.2em] whitespace-nowrap border border-white/10 shadow-2xl">Scroll Top</span>
+      {/* 📍 Top 버튼 및 토스트 알림 시스템 */}
+      <div className="fixed bottom-10 right-10 z-[60] flex flex-col gap-6">
+        <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="w-16 h-16 md:w-20 md:h-20 bg-yellow-400 rounded-full flex items-center justify-center text-black shadow-[0_0_80px_rgba(250,204,21,0.4)] hover:bg-white transition-all hover:scale-110 active:scale-90 group relative border border-black/5">
+          <Zap size={32} fill="currentColor"/>
+          <span className="absolute right-28 bg-black text-white text-[9px] font-black uppercase px-5 py-2.5 rounded-full opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none tracking-[0.2em] whitespace-nowrap border border-white/10 shadow-2xl text-center font-bold">위로 이동</span>
         </button>
       </div>
 
-      <div className="fixed top-32 right-8 md:right-16 z-[250] flex flex-col gap-6 max-w-md">
+      <div className="fixed top-32 right-6 md:right-16 z-[250] flex flex-col gap-6 max-w-md pointer-events-none">
         {toasts.map(t => (
-          <div key={t.id} className="bg-black text-white px-12 py-8 rounded-3xl shadow-[0_40px_80px_rgba(0,0,0,0.6)] font-black border-l-[20px] border-yellow-400 animate-in slide-in-from-right-20 fade-in text-sm md:text-base tracking-tight leading-relaxed">{t.message}</div>
+          <div key={t.id} className="bg-black text-white px-8 md:px-12 py-6 md:py-8 rounded-3xl shadow-[0_40px_80px_rgba(0,0,0,0.6)] font-black border-l-[16px] md:border-l-[20px] border-yellow-400 animate-in slide-in-from-right-20 fade-in text-sm md:text-base tracking-tight leading-relaxed font-bold">{t.message}</div>
         ))}
       </div>
     </div>
