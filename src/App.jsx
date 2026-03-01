@@ -196,7 +196,41 @@ const App = () => {
   const [isSubscribed, setIsSubscribed] = useState(false);
   const [subscribeEmail, setSubscribeEmail] = useState('');
   const sliderRef = useRef(null);
+  
+  // --- 기존에 있던 코드 (이 줄을 찾으세요) ---
+  const sliderRef = useRef(null);
 
+  // ▼▼▼ 여기서부터 아래로 복사해서 새로 붙여넣으세요 ▼▼▼
+  // --- 마우스 드래그 스크롤 상태 및 함수 ---
+  const [isDragging, setIsDragging] = useState(false);
+  const [startX, setStartX] = useState(0);
+  const [scrollLeft, setScrollLeft] = useState(0);
+  const [isDragMove, setIsDragMove] = useState(false);
+
+  const handleDragStart = (e) => {
+    if (!sliderRef.current) return;
+    setIsDragging(true);
+    setIsDragMove(false);
+    setStartX(e.pageX - sliderRef.current.offsetLeft);
+    setScrollLeft(sliderRef.current.scrollLeft);
+  };
+
+  const handleDragEnd = () => {
+    setIsDragging(false);
+  };
+
+  const handleDragMove = (e) => {
+    if (!isDragging || !sliderRef.current) return;
+    e.preventDefault();
+    setIsDragMove(true); // 드래그가 발생했음을 기록 (클릭 오작동 방지)
+    const x = e.pageX - sliderRef.current.offsetLeft;
+    const walk = (x - startX) * 2; // 스크롤 이동 속도
+    sliderRef.current.scrollLeft = scrollLeft - walk;
+  };
+  // ▲▲▲ 여기까지 ▲▲▲
+
+  // --- 기존에 있던 코드 ---
+  const [articlesList, setArticlesList] = useState(() => {
   const [articlesList, setArticlesList] = useState(() => {
     const saved = localStorage.getItem('mag_final_prod_data_v32');
     return (saved && JSON.parse(saved).length > 0) ? JSON.parse(saved) : initialArticles;
@@ -848,13 +882,26 @@ const App = () => {
            </div>
         </div>
         
-        <div ref={sliderRef} className="flex gap-12 overflow-x-auto no-scrollbar snap-x snap-mandatory px-6 lg:px-12 pb-20 scroll-smooth">
+        <div 
+          ref={sliderRef} 
+          onMouseDown={handleDragStart}
+          onMouseLeave={handleDragEnd}
+          onMouseUp={handleDragEnd}
+          onMouseMove={handleDragMove}
+          className={`flex gap-12 overflow-x-auto no-scrollbar px-6 lg:px-12 pb-20 select-none ${isDragging ? 'cursor-grabbing snap-none' : 'cursor-grab snap-x snap-mandatory scroll-smooth'}`}
+        >
             {gridArticles.filter(a => activeTab === 'ALL' || a.category === activeTab).length > 0 ? (
               gridArticles.filter(a => activeTab === 'ALL' || a.category === activeTab).map((article) => (
                 <div 
                   key={article.id} 
-                  onClick={() => openArticle(article)} 
-                  className="min-w-[400px] md:min-w-[600px] aspect-[4/5] bg-[#111] rounded-[50px] relative overflow-hidden group snap-center cursor-pointer border border-white/5"
+                  onClick={(e) => {
+                    if (isDragMove) {
+                      e.preventDefault(); // 드래그 중이었다면 클릭 무시
+                      return;
+                    }
+                    openArticle(article);
+                  }} 
+                  className="min-w-[400px] md:min-w-[600px] aspect-[4/5] bg-[#111] rounded-[50px] relative overflow-hidden group snap-center border border-white/5"
                 >
                    <img src={article.image} className="absolute inset-0 w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-[1s]" alt="Slider Item" />
                    <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-80" />
